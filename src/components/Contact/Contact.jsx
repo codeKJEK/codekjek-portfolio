@@ -17,7 +17,7 @@ const Contact = () => {
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
             </p>
-            <form className="contactForm" data-netlify-recaptcha="true" name="contact" method="POST" data-netlify="true">
+            <form className="contactForm" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
             <input type="hidden" name="form-name" value="contact" />
             <p>
                 <label>Name: <input type="text" name="name" /></label>
