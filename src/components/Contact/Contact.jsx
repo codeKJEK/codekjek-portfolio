@@ -17,20 +17,27 @@ const Contact = () => {
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
             </p>
-            <form className="contactForm" name="contact" method="POST" data-netlify="true">
+            <form name="contact" method="POST" data-netlify="true">
               <p>
-                <label>Name <input type="text" name="name" /></label>
+                <label>Your Name: <input type="text" name="name" /></label>   
               </p>
               <p>
-                <label>Email <input type="email" name="email" /></label>
+                <label>Your Email: <input type="email" name="email" /></label>
               </p>
               <p>
-                <label>Comment <textarea type="text" name="comment" /></label>
+                <label>Your Role: <select name="role[]" multiple>
+                  <option value="leader">Leader</option>
+                  <option value="follower">Follower</option>
+                </select></label>
               </p>
               <p>
-                <button class="cta-btn cta-btn--resume" type="submit">Send</button>
+                <label>Message: <textarea name="message"></textarea></label>
+              </p>
+              <p>
+                <button className="cta-btn cta-btn--resume" type="submit">Send</button>
               </p>
             </form>
+            
           </div>
         </Fade>
       </Container>
