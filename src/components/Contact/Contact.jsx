@@ -28,7 +28,7 @@ const Contact = () => {
                 <label>Message: <textarea name="message"></textarea></label>
               </p>
               <p>
-                <button className="cta-btn cta-btn--resume" type="submit">Send</button>
+                <button type="submit">Send</button>
               </p>
             </form>
           </div>
