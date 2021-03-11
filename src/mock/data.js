@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'kurtiskovel.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: '1989 Born in Charlotte North Carolina',
+  paragraphTwo: 'In 2008 I attended ITT Technical Institute where I learned basic HTML, CSS and JavaScript. In 2012 I used that knowledge to freelance until I obtained a position in Belk’s eCommerce department editing landing pages using HTML.',
+  paragraphThree: 'By 2016 I had parted ways with Belk to do more freelance work before picking up steady work from Caring For Healthcare. There I expanded my knowledge of HTML and CSS before attending UNCC’s Full-Stack Development Bootcamp in 2020.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -29,7 +29,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'sws-project.jpg',
-    title: '',
+    title: 'Sneakers With Stories',
     info: '',
     info2: '',
     url: 'https://safe-beyond-09344.herokuapp.com/',
@@ -38,7 +38,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'quiz-project.jpg',
-    title: '',
+    title: 'Javascript Quiz',
     info: '',
     info2: '',
     url: 'https://morning-dusk-12730.herokuapp.com/',
@@ -47,7 +47,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'homepage-project.jpg',
-    title: '',
+    title: 'Custom Homepage',
     info: '',
     info2: '',
     url: 'https://jethan16.github.io/HomePage/',
