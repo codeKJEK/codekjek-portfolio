@@ -17,14 +17,20 @@ const Contact = () => {
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
             </p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
-            >
-              {btn || "Let's Talk"}
-            </a>
+            <form className="contactForm" name="contact" netlify>
+              <p>
+                <label>Name <input type="text" name="name" /></label>
+              </p>
+              <p>
+                <label>Email <input type="email" name="email" /></label>
+              </p>
+              <p>
+                <label>Comment <textarea type="text" name="comment" /></label>
+              </p>
+              <p>
+                <button class="cta-btn cta-btn--resume" type="submit">Send</button>
+              </p>
+            </form>
           </div>
         </Fade>
       </Container>

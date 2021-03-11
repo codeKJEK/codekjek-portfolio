@@ -34,3 +34,15 @@
     }
   }
 }
+
+.contactForm label {
+  font-size: 2rem;
+}
+.contactForm  input, .contactForm  textarea {
+  display: block;
+  width: 520px;
+}
+
+.contactForm button {
+  background: none;
+}

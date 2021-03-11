@@ -30,8 +30,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'sws-project.jpg',
     title: 'Sneakers With Stories',
-    info: '',
-    info2: '',
+    info: 'Our team created a React app displaying Daniel Brenneman custom shoes and their inspirational stories.  I setup the project, worked with mongoose and reviewed many pull requests.',
+    info2: 'What is next? Rebuild in Next.js, remove unneeded database (project requirement)',
     url: 'https://safe-beyond-09344.herokuapp.com/',
     repo: 'https://github.com/jethan16/SneakersWithStories', // if no repo, the button will not show up
   },
@@ -39,8 +39,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'quiz-project.jpg',
     title: 'Javascript Quiz',
-    info: '',
-    info2: '',
+    info: 'Our team wanted to create a JavaScript quiz to help our classmates learn JavaScript.  I worked with Sequelize, Passport User Authentication and launched to project to Heroku.',
+    info2: 'What is next? Add content for HTML5 and CSS3 quiz.',
     url: 'https://morning-dusk-12730.herokuapp.com/',
     repo: 'https://github.com/codeKJEK/flash-card-quiz', // if no repo, the button will not show up
   },
@@ -48,8 +48,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'homepage-project.jpg',
     title: 'Custom Homepage',
-    info: '',
-    info2: '',
+    info: 'Our team created a custom homepage for your browser.  I designed the mobile first layout, created simple buttons and integrated the rotating background JavaScript and API.',
+    info2: 'What is next? Update UI/UX and find a new random fact API.',
     url: 'https://jethan16.github.io/HomePage/',
     repo: 'https://github.com/jethan16/HomePage', // if no repo, the button will not show up
   },
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'kurtiskovel@gmail.com',
 };
 
 // FOOTER DATA
