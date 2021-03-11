@@ -17,9 +17,9 @@ const Contact = () => {
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
             </p>
-            <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-              <p class="hidden">
-                <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+            <form className="contactForm" name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Name: <input type="text" name="name" /></label>
               </p>
               <p>
                 <label>Email: <input type="text" name="email" /></label>
@@ -27,8 +27,9 @@ const Contact = () => {
               <p>
                 <label>Message: <textarea name="message"></textarea></label>
               </p>
+              <div netlify-recaptcha></div>
               <p>
-                <button type="submit">Send</button>
+                <button className="cta-btn cta-btn--resume" type="submit">Send</button>
               </p>
             </form>
           </div>
