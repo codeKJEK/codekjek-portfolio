@@ -43,8 +43,6 @@ const Footer = () => {
             Kurtis Kovel
           </a>
         </p>
-
-        {isEnabled && <GithubButtons />}
       </Container>
     </footer>
   );
