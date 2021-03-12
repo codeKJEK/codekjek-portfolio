@@ -73,7 +73,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: 'http://github.com/codeKJEK',
+      url: 'https://github.com/codeKJEK',
     },
   ],
 };
